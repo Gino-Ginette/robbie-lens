@@ -2,6 +2,15 @@ a {
     color: black;
 }
 
-span{
+.important{
     color: #A5B4FC;
 }
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+}
+p{
+    font-family: 'Manrope ExtraLight', sans-serif;
+    font-size: 1.1em;
+}
+
