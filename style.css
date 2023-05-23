@@ -1,9 +1,14 @@
-a {
-    color: black;
+body{
+    background-color: #1F2039;
+    font-size: 1em;
 }
-
+a {
+    color: #242424;
+    text-decoration: none;
+}
 .important{
     color: #A5B4FC;
+    font-style: normal;
 }
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -18,9 +23,31 @@ p{
     background-color: white;
     color: #242424;
 }
-body{
-    background-color: #1F2039;
-}
 h2{
-    color: #F9F8FF;
+    color: #F9F8FF
 }
+p, li{
+    color: #F9F8FF;
+    font-size: 1.1em;
+}
+.cta{
+    background: linear-gradient(#8E86B5,#ACAEED);
+    border-radius: 50px;
+    color: white;
+}
+.paragraph_competence{
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+}
+a:hover{
+    text-decoration: underline;
+}
+.cta:hover{
+    background: linear-gradient(#696484,#8788BA);
+    text-decoration: none;
+    
+}
+.lien_icone:hover{
+    opacity: 0.5;
+}
+
