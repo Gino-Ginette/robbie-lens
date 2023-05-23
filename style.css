@@ -49,5 +49,6 @@ a:hover{
 }
 .lien_icone:hover{
     opacity: 0.5;
+    color: aqua;
 }
 
