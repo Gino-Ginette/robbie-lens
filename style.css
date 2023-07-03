@@ -24,10 +24,11 @@ p{
     font-family: 'Manrope ExtraLight', sans-serif;
     font-size: 1.1em;
 }
+/*Applique les propritéS suivantes aux contenus footer et header*/
 footer, header{
     background-color: white;
     color: #242424;
-    padding: 20px 50px 50px 20px;
+    padding: 20px 50px;
 }
 h2{
     color: #F9F8FF
@@ -54,9 +55,11 @@ p, li{
 .paragraph_competence ul{
     margin-top: 30px;
 }
+/*Au survole, souligne le texte*/
 a:hover{
     text-decoration: underline;
 }
+/*Au survole, applique un dégradé au btn*/
 .cta:hover{
     background: linear-gradient(#696484,#8788BA);
     text-decoration: none;
@@ -73,3 +76,37 @@ section{
     width: 50%;
     margin: auto;
 }
+footer, nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+nav a {
+    margin-left: 30px;
+}
+.accueil-photos{
+    background-color: white;
+    padding: 80px;
+}
+  /*centre la phrase contenu dans le h2, donne un marge extérieur et une couleur*/
+.accueil-photos h2 {
+    color: #242424;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.accueil-photos div {
+    display: flex;
+    flex-direction: row; /*les éléments sont disposés horizontalement de gauche à droite*/
+    gap: 15px; /*donne de l'espace entre les images*/
+    justify-content: center;
+    margin-bottom: 15px;
+}
+  
+  .accueil-introduction {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+  }
