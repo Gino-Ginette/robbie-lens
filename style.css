@@ -102,11 +102,10 @@ nav a {
     justify-content: center;
     margin-bottom: 15px;
 }
-  
-  .accueil-introduction {
+.accueil-introduction {
     display: flex;
     flex-direction: row;
     width: 50%;
-    align-items: center;
+    align-items: center; /*Alignement des éléments au centre sur l'axe secondaire*/
     margin: auto;
-  }
+}
