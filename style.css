@@ -1,4 +1,9 @@
+*{
+    margin: 0;
+}
+  
 body{
+    font-family: 'Manrope', sans-serif;
     background-color: #1F2039;
     font-size: 1em;
 }
@@ -19,9 +24,10 @@ p{
     font-family: 'Manrope ExtraLight', sans-serif;
     font-size: 1.1em;
 }
-.footer_header{
+footer, header{
     background-color: white;
     color: #242424;
+    padding: 20px 50px 50px 20px;
 }
 h2{
     color: #F9F8FF
@@ -34,10 +40,19 @@ p, li{
     background: linear-gradient(#8E86B5,#ACAEED);
     border-radius: 50px;
     color: white;
+    padding: 20px 30px;
 }
+/*paragraph_competence= carre-contenu dans le cours opc*/
 .paragraph_competence{
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+}
+.paragraph_competence h2{
+    margin-top: 30px;
+}
+.paragraph_competence ul{
+    margin-top: 30px;
 }
 a:hover{
     text-decoration: underline;
@@ -51,4 +66,10 @@ a:hover{
     opacity: 0.5;
     color: aqua;
 }
-
+section{
+    padding: 80px;
+}
+.a-propos-main{
+    width: 50%;
+    margin: auto;
+}
