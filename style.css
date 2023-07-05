@@ -38,10 +38,12 @@ p, li{
     font-size: 1.1em;
 }
 .cta{
+    display: inline-block;
     background: linear-gradient(#8E86B5,#ACAEED);
     border-radius: 50px;
     color: white;
     padding: 20px 30px;
+    margin: 50px;
 }
 /*paragraph_competence= carre-contenu dans le cours opc*/
 .paragraph_competence{
@@ -62,8 +64,7 @@ a:hover{
 /*Au survole, applique un dégradé au btn*/
 .cta:hover{
     background: linear-gradient(#696484,#8788BA);
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 .lien_icone:hover{
     opacity: 0.5;
