@@ -43,20 +43,23 @@ p, li{
     border-radius: 50px;
     color: white;
     padding: 20px 30px;
-    margin: 50px;
 }
 /*paragraph_competence= carre-contenu dans le cours opc*/
-.paragraph_competence{
+.carre-contenu{
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
     padding: 50px;
+    margin-bottom: 80px;
 }
-.paragraph_competence h2{
+.carre-contenu h2{
     margin-top: 30px;
 }
-.paragraph_competence ul{
+.carre-contenu ul{
     margin-top: 30px;
 }
+.carre-contenu + div {
+    text-align: center;
+  }
 /*Au survole, souligne le texte*/
 a:hover{
     text-decoration: underline;
@@ -106,9 +109,19 @@ nav a {
 .accueil-introduction {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 60%;
+    align-items: flex-start;
     align-items: center; /*Alignement des éléments au centre sur l'axe secondaire*/
     margin: auto;
+}
+.accueil-introduction h1{
+    margin-bottom: 15px;
+}
+.accueil-introduction p{
+    margin-bottom: 30px;
+}
+.accueil-introduction div{
+    padding-right: 80px;
 }
 .portfolio-section-photos{
     background-color: white;
@@ -134,4 +147,33 @@ nav a {
     grid-template-columns:  1fr  1fr 1fr;
     grid-template-rows:  300px  300px;
     gap: 15px;
+}
+.grid-paysages img,
+.grid-portraits img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lien-conteneur-photo {
+  position: relative;
+}
+
+.photo-hover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.lien-conteneur-photo:hover .photo-hover{
+  display: flex;
 }
